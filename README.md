@@ -7,18 +7,8 @@
 #### Udacity Deep Reinforcement Learning Nanodegree
 ### Project 3: Multi-Agent Collaboration & Competition
 # Train Two RL Agents to Play Tennis
-##### &nbsp;
-
-<img src="assets/robot-table-tennis.gif" width="70%" align="top-left" alt="" title="Robot Ping Pong" />
-
-[//]: # (_Photo credit: []_)
 
 ##### &nbsp;
-
-For instructions on how to setup and run this project go to the [starter code section.](https://github.com/tommytracey/DeepRL-P3-Collaboration-Competition#project-starter-code)
-##### &nbsp;
-
-The write-up below is also available [here as a blog post](https://medium.com/@thomastracey/training-two-agents-to-play-tennis-8285ebfaec5f).
 
 ## Project Background: Why Multi-agent RL Matters
 For artificial intelligence (AI) to reach its full potential, AI systems need to interact safely and efficiently with humans, as well as other agents. There are already environments where this happens on a daily basis, such as the stock market. And there are future applications that will rely on productive agent-human interactions, such as self-driving cars and other autonomous vehicles.
@@ -65,7 +55,7 @@ The environment is considered solved when the average (over 100 episodes) of tho
 Here are the high-level steps taken in building an agent that solves this environment.
 
 1. Establish performance baseline using a random action policy.
-1. Select an appropriate algorithm and begin implementing it.
+1. Select an appropriate algorithm and implementing it.
 1. Run experiments, make revisions, and retrain the agent until the performance threshold is reached.
 
 WARNING: I ultimately reached a good solution; however, the results were not consistent. My "best" results were only reproducible if I reran the model numerous times (>10). If you just run the model once (or even 3-5 times), it might not converge. And, during the initial implementation, I ran the model at least 30 times while searching for a reliable set of hyperparameters. If you want to experiment with different approaches, I strongly recommend implementing a more systematic approach such as grid search (which I did not do, but wish I had).
