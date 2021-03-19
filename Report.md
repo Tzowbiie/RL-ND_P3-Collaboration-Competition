@@ -208,7 +208,7 @@ Once all of the above components were in place, the agents were able to solve th
 
 <img src="Unity Environment 2021-03-18 13-55-56.gif" width="70%" align="top-left" alt="" title="Results Graph" />
 
-The graph below shows the final training result. The best-performing agents were able to solve the environment in 653 episodes, with a top score of 5.2 and a top moving average of 0.501. The complete set of results and steps can be found in [this notebook](Tennis.ipynb).
+The graph below shows the final training result. The best-performing agents were able to solve the environment in 753 episodes, with a top score of 5.2 and a top moving average of 0.501. The complete set of results and steps can be found in [this notebook](Tennis.ipynb).
 
 <img src="/graphs/P3-Result.png" width="70%" align="top-left" alt="" title="Results Graph" />
 
